@@ -3,8 +3,9 @@
 public static class Global
 {
     #region Tags
-
-
+    public const string HandTag = "Hand";
+    public const string ReactorTag = "Reactor";
+    public const string ReactionTag = "Reaction";
     #endregion
 
     #region Axis

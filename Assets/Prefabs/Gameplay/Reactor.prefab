@@ -1,54 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2567026476723682820
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 30504766803468409}
-  - component: {fileID: 8943679291814751408}
-  m_Layer: 0
-  m_Name: Reactions
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &30504766803468409
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2567026476723682820}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7244905967219827830}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8943679291814751408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2567026476723682820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bb5d96624d28c04daa7e9e056f04c02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reactionCollection: {fileID: 11400000, guid: d7ba354381932a14596bd5a34740c125, type: 2}
-  reactionsPool:
-    _useConstant: 0
-    _constantValue: 0
-    _variable: {fileID: 11400000, guid: a428bef6c33b7e246b85667819b6a789, type: 2}
-  reactionPrefab: {fileID: 7213641568561289045, guid: 03864dc8b3485af4c9cc85d2e103d7a5, type: 3}
 --- !u!1 &7244905967219827829
 GameObject:
   m_ObjectHideFlags: 0
@@ -78,7 +29,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7244905968502670856}
-  - {fileID: 30504766803468409}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -94,6 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b07e6a4a20e5164daca98c4779f7395, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGameOver:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 932ff3c1dcb1f2e4cb80e1726daf5cde, type: 2}
   isGrowing:
     _useConstant: 0
     _constantValue: 0
@@ -102,6 +56,10 @@ MonoBehaviour:
     _useConstant: 0
     _constantValue: 0
     _variable: {fileID: 11400000, guid: ad8fa614b4ecc4f46a4d2fd681fcba0c, type: 2}
+  reduceGrowFactor:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 948899c0921ee974baa79f6b51d76c07, type: 2}
   bounceAnimationFactor:
     _useConstant: 0
     _constantValue: 0
@@ -120,8 +78,6 @@ MonoBehaviour:
     _constantValue: 0
     _variable: {fileID: 11400000, guid: 05ec5751ce9ee5846acc036ec51afe75, type: 2}
   reactionCollection: {fileID: 11400000, guid: d7ba354381932a14596bd5a34740c125, type: 2}
-  sfxToPlay: {fileID: 0}
-  spawningReactionAudio: {fileID: 0}
 --- !u!1 &7244905968502670863
 GameObject:
   m_ObjectHideFlags: 0
