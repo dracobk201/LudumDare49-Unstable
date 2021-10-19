@@ -48,6 +48,23 @@ MonoBehaviour:
     _useConstant: 0
     _constantValue: 0
     _variable: {fileID: 11400000, guid: 932ff3c1dcb1f2e4cb80e1726daf5cde, type: 2}
+  isGameStarted:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: ccc5949bf358d3a448bb1661cb8e0101, type: 2}
+  initialReactorDamage:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: ce5cfb35eac85fa47bae20a44ce9353d, type: 2}
+  reactorDamage:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 9d1ae87768296e24680fdd2a181fb970, type: 2}
+  reactorMaxDamage:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 3486b50f681617745bad44759e2ecad1, type: 2}
+  SetGameOver: {fileID: 11400000, guid: 526fed04147a57944a6b797d1c889b89, type: 2}
   isGrowing:
     _useConstant: 0
     _constantValue: 0
